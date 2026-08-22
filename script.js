@@ -2,7 +2,7 @@
   "use strict";
 
   // После публикации Telegram Worker вставьте сюда его адрес с /submit.
-  const TELEGRAM_ENDPOINT = "https://YOUR-WORKER.YOUR-SUBDOMAIN.workers.dev/submit";
+  const TELEGRAM_ENDPOINT = "https://calm-band-0308.work123qwerty11.workers.dev/submit";
   const SITE_NAME = "CNPC CFA Partner";
 
   const form = document.querySelector("#applicationForm");
