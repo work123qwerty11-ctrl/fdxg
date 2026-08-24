@@ -250,17 +250,13 @@
         </div>
 
         <form class="application-form" id="applicationForm" novalidate>
-          <label class="form-honeypot" aria-hidden="true">
-            <span>Оставьте это поле пустым</span>
-            <input name="website" tabindex="-1" autocomplete="off" />
-          </label>
           <div class="form-row">
             <label>
               <span>Имя</span>
               <input name="name" placeholder="Как к вам обращаться" autocomplete="name" required />
             </label>
             <label>
-              <span>Ваш Telegram контакт</span>
+              <span>Телефон или Telegram</span>
               <input name="contact" placeholder="+7 или @username" autocomplete="tel" required />
             </label>
           </div>
@@ -287,6 +283,16 @@
               <option>Более 3 000 €</option>
             </select>
           </label>
+          <div class="form-row">
+            <label>
+              <span>Удобная дата для связи</span>
+              <input name="contact_date" type="date" required />
+            </label>
+            <label>
+              <span>Удобное время для связи</span>
+              <input name="contact_time" type="time" required />
+            </label>
+          </div>
           <label class="consent">
             <input type="checkbox" name="consent" value="yes" required />
             <span>Согласен на обработку данных и получение информации о программе</span>
@@ -295,7 +301,7 @@
             Отправить заявку <span>↗</span>
           </button>
           <p class="form-message" id="formMessage" role="status" aria-live="polite">
-            После настройки обработчика заявка будет отправлена напрямую в Telegram.
+            Демонстрационный шаблон: укажите адрес обработчика в файле script.js.
           </p>
         </form>
       </section>
