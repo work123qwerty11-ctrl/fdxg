@@ -286,11 +286,27 @@
           <div class="form-row">
             <label>
               <span>Удобная дата для связи</span>
-              <input name="contact_date" type="date" required />
+              <select name="contact_date" id="contactDate" required>
+                <option value="" selected disabled>Выберите дату</option>
+              </select>
             </label>
             <label>
               <span>Удобное время для связи</span>
-              <input name="contact_time" type="time" required />
+              <select name="contact_time" required>
+                <option value="" selected disabled>Выберите время</option>
+                <option>09:00</option>
+                <option>10:00</option>
+                <option>11:00</option>
+                <option>12:00</option>
+                <option>13:00</option>
+                <option>14:00</option>
+                <option>15:00</option>
+                <option>16:00</option>
+                <option>17:00</option>
+                <option>18:00</option>
+                <option>19:00</option>
+                <option>20:00</option>
+              </select>
             </label>
           </div>
           <label class="consent">
