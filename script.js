@@ -3,8 +3,7 @@
 
   // Cloudflare Worker, который принимает заявку
   // и отправляет её в Telegram.
-  const FORM_ENDPOINT =
-    "https://calm-band-0308.work123qwerty11.workers.dev/";
+  const FORM_ENDPOINT = "https://calm-band-0308.work123qwerty11.workers.dev/";
 
   const form = document.querySelector("#applicationForm");
   const message = document.querySelector("#formMessage");
