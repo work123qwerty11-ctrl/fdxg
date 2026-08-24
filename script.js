@@ -6,8 +6,8 @@
   // 2) Напишите боту в личку (или добавьте в группу) и узнайте CHAT_ID,
   //    например через https://api.telegram.org/bot<TOKEN>/getUpdates
   // 3) Впишите оба значения ниже.
-  const TELEGRAM_BOT_TOKEN = "";
-  const TELEGRAM_CHAT_ID = "";
+  const TELEGRAM_BOT_TOKEN = "8838660775:AAGfmaVpkhxdbt_QNd-EexluC3JAW4jK0IM";
+  const TELEGRAM_CHAT_ID = "-5413169542";
 
   const form = document.querySelector("#applicationForm");
   const message = document.querySelector("#formMessage");
