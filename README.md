@@ -23,19 +23,17 @@
 
 ## Подключение формы
 
-GitHub Pages не обрабатывает заявки самостоятельно. Для отправки данных можно
-использовать Formspree или аналогичный сервис.
+GitHub Pages не обрабатывает заявки самостоятельно. Заявки отправляются
+напрямую в Telegram через Bot API.
 
-В файле `script.js` замените:
-
-```js
-const FORM_ENDPOINT = "";
-```
-
-на адрес вашей формы, например:
+1. Создайте бота через [@BotFather](https://t.me/BotFather) и получите токен.
+2. Напишите боту в личку (или добавьте его в группу) и узнайте `chat_id`,
+   например через `https://api.telegram.org/bot<TOKEN>/getUpdates`.
+3. В файле `script.js` укажите оба значения:
 
 ```js
-const FORM_ENDPOINT = "https://formspree.io/f/your-form-id";
+const TELEGRAM_BOT_TOKEN = "тут_токен_бота";
+const TELEGRAM_CHAT_ID = "тут_chat_id";
 ```
 
 Перед рекламным запуском добавьте реальные контакты, политику обработки
